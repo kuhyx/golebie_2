@@ -1,0 +1,28 @@
+{
+    "$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",
+    "settings": {
+        "orderingRules": {
+            "usingDirectivesPlacement": "outsideNamespace",
+            "systemUsingDirectivesFirst": true
+        },
+        "documentationRules": {
+            "companyName": "PigeonRacingManager",
+            "copyrightText": "",
+            "documentInterfaces": true,
+            "documentExposedElements": true,
+            "documentInternalElements": true,
+            "documentPrivateElements": false,
+            "documentPrivateFields": false,
+            "fileNamingConvention": "metadata"
+        },
+        "namingRules": {
+            "allowCommonHungarianPrefixes": false,
+            "allowedHungarianPrefixes": []
+        },
+        "layoutRules": {
+            "newlineAtEndOfFile": "require"
+        },
+        "readabilityRules": {},
+        "maintainabilityRules": {}
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "generateAdditionalMetrics": true,
+    "generateHtmlReport": true,
+    "generateHtmlReportHistory": true,
+    "generateBadgeReport": true,
+    "assemblyFilters": [
+        "+PigeonRacingManager",
+        "-PigeonRacingManager.Tests*"
+    ],
+    "pathFilters": [
+        "-**/Assets/Plugins/**",
+        "-**/Assets/UnityMCP/**"
+    ],
+    "pathReplacePatterns": [],
+    "sourcePaths": [
+        "Assets/Scripts"
+    ],
+    "useProjectSettings": true
+}

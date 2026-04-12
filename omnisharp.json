@@ -1,0 +1,20 @@
+{
+    "RoslynExtensionsOptions": {
+        "enableAnalyzersSupport": true,
+        "enableEditorConfigSupport": true,
+        "enableDecompilationSupport": false,
+        "enableImportCompletion": true,
+        "enableAsyncCompletion": true
+    },
+    "FormattingOptions": {
+        "enableEditorConfigSupport": true,
+        "organizeImports": true
+    },
+    "fileOptions": {
+        "excludeSearchPatterns": [
+            "**/Library/**",
+            "**/Temp/**",
+            "**/obj/**"
+        ]
+    }
+}
